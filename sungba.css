@@ -1,0 +1,169 @@
+body {
+    background-color: aqua;
+    padding: 15px;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+  }
+  .menu a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+    .menu a.right 
+    {
+    float: left;
+}
+
+    .menu a:hover {
+            background-color: blue;
+            color: white;}
+.first{
+    padding: 20px;
+}
+.heading {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.Me H3{
+    margin-right: 10px;
+    text-align: left;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
+.Me P1{ margin-right: 10px;
+    text-align: left;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.second {
+  
+    background-color: bisque;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  #Register{
+    background-color: rgb(187, 120, 37);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    width: 100%;
+   
+  }
+  .yes {
+      color: darkred;
+  }
+  .Getin {
+    background-color: #766d83;
+    text-align: center;
+  }
+
+  .four{
+    background-color: rgb(35, 170, 194);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  input[type=texted] {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  .signinbtn {
+    background-color: #30027a;
+    text-align: center;
+  }
+
+  .calculator{
+    background-color: rgb(128, 199, 231);
+    margin: auto;
+  width: 17%;
+  padding: 10px;
+  border: 1px solid #f2f2f2;
+  }
+  table{
+    width: 100%;
+  }
+  td{
+    width: 25%;
+  }
+  .result{
+    font-size: 24px;
+    padding: 16px 5px;
+    font-weight: 700;
+    text-align: right;
+    width: 96%;
+    border: none;
+    color: #F8F8F8;
+  }
+  .display{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #c7c2c2;
+    width: 100%;
+  }
